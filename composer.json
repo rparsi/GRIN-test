@@ -1,0 +1,17 @@
+{
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "phpunit/phpunit": ">=10"
+    }
+}
